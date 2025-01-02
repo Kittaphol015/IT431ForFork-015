@@ -9,6 +9,7 @@
         </tr>
         <td width="1007" bgcolor="#FFFFFF">
     <?php
+    //แก้ไขไฟล์ครั้งที่1
         session_start();
         if(isset($_SESSION['user']) && isset($_SESSION['password'])){
             $link = mysqli_connect("localhost","root","1234");
